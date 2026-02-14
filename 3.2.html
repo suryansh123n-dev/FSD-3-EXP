@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Library Management</title>
+<style>
+body{
+    font-family: Arial;
+    background: linear-gradient(to right,#dfe6e9,#b2bec3);
+    padding:40px;
+}
+
+.container{
+    max-width:700px;
+    margin:auto;
+}
+
+input{
+    padding:10px;
+    margin:5px;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    border-radius:8px;
+    background:linear-gradient(to right,#0052D4,#4364F7);
+    color:white;
+    font-weight:bold;
+}
+
+.book{
+    background:#f5f6fa;
+    padding:20px;
+    margin-top:20px;
+    border-radius:15px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.remove{
+    background:#e74c3c;
+    padding:8px 15px;
+    border-radius:8px;
+}
+</style>
+</head>
+<body>
+
+<div class="container">
+<h1>Library Management System</h1>
+
+<input type="text" placeholder="Search books..."><br>
+<input type="text" placeholder="Book Title">
+<input type="text" placeholder="Author">
+<button>Add Book</button>
+
+<div class="book">
+    <div>
+        <h3>The Great Gatsby</h3>
+        <p>by S. Scott Fitzgerald</p>
+    </div>
+    <button class="remove">Remove</button>
+</div>
+
+<div class="book">
+    <div>
+        <h3>To Kill a Mockingbird</h3>
+        <p>by Harper Lee</p>
+    </div>
+    <button class="remove">Remove</button>
+</div>
+
+<div class="book">
+    <div>
+        <h3>The Great Gatsby</h3>
+        <p>by F. Scott Fitzgerald</p>
+    </div>
+    <button class="remove">Remove</button>
+</div>
+
+</div>
+</body>
+</html>
